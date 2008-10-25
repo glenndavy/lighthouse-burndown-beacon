@@ -7,7 +7,7 @@ body { }
   position:relative;
   text-align:center;
   min-height:600px;
-  background:url(/images/lighthouse_bg_small.png) no-repeat bottom left;
+  background:url(/images/lighthouse_bg_small.png) no-repeat bottom right;
 }
 
 #banner {
