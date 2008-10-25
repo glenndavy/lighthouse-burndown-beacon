@@ -1,0 +1,116 @@
+body { }
+.app {
+  width:768px; 
+  margin-left:auto;
+  margin-right:auto;
+  background:#F0F0F0;
+  position:relative;
+  text-align:center;
+  min-height:600px;
+  background:url(/images/lighthouse_bg_small.png) no-repeat bottom left;
+}
+
+#banner {
+ background:url(/images/banner.png) no-repeat top right;
+ height:168px;
+ font-family:Verdana,Arial,Helvetica,sans-serif;
+ font-size:32pt;
+ padding-top:32pt;
+ margin-bottom:0pt;
+}
+
+.clear {
+ clear:both; 
+}
+
+ul { list-style-type:none;}
+
+
+ul#choose {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  position:relative;
+  list-style-type:none;
+}
+
+ul#choose > li{
+  position:relative;
+  width:180px;
+  height:180px;
+  clear:none;
+  margin:0px 20px 20px 20px;
+  float:left;
+  background:url(/images/choose.png) no-repeat;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:22pt;
+  color:black;
+  padding-top:22px;
+}
+
+
+ul#summary {
+  text-align:left;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:8pt;
+  padding-left:8pt;
+  padding-right:4pt;
+  padding-top:4pt;
+  list-style-type:disc;
+  list-style-position:inside;
+  color:#666666;
+}
+ul#summary li{
+  padding-top:4pt;
+}
+
+.flash{
+  height:92px;
+  padding-top:24px;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:14pt;
+  font-weight:medium;
+  width:712px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.error {
+  background:url(/images/error.png) no-repeat top;
+}
+.notice {
+  background:url(/images/notice.png) no-repeat top;
+}
+
+#content {
+  background:url(/images/content_top.png) no-repeat top;
+  padding:8pt;
+  min-height:200px;
+}
+
+#content table {
+  margin-left:auto;
+  margin-right:auto;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:10pt;
+  color:#444444;
+  text-align:left
+  border-right:solid 1px #777777;
+  border-spacing:0px;
+  border-collapse:collapse; 
+}
+
+#content table th,  #content table td {
+  border:solid 1px #777777;
+  padding:0px 4pt 0px 2pt;
+  text-align:left;
+}
+
+#content table th {
+  font-weight:bold;
+}
+
+
+#content table td.numeric {
+  text-align:right; 
+}
