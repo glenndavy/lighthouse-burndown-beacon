@@ -1,5 +1,1 @@
-/log/*.log
-/tmp/**/*
-.DS_Store
-/**/.DS_Store
-.sw[op]
+db/*.sqlite3
