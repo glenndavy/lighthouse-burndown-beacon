@@ -1,0 +1,18 @@
+
+development:
+  token: e8fb6a6ea0610741d35037c1a5f4a14e50130
+  account: burndown
+  project: burndown
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  token: e8fb6a6ea0610741d35037c1a5f4a14e50130
+  account: burndown
+  project: burndown
+
+production:
+  token: e8fb6a6ea0610741d35037c1a5f4a14e50130
+  account: burndown
+  project: burndown

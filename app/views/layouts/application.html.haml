@@ -1,0 +1,29 @@
+!!! XML
+!!!
+%html
+  %head
+    %title
+      Lighthouse Burndown
+    =stylesheet_link_tag "burndown"
+  %body
+    .app
+      %h1#banner
+        Lighthouse Burndown
+      
+      %ul#choose
+        %li
+          %a{:href => "/daily-stats/harvest"}Harvest 
+        %li
+          %a{:href => "/daily-stats/reports"}Analyze / Visualise
+        %li
+          %ul#summary
+            %li="Days collected: #{@stat_count}"
+            %li=@latest_stat_message
+            %li=@collection_period_message
+      .clear
+      - if flash[:notice]
+        %p.flash.notice=flash[:notice] 
+      - if flash[:error]
+        %p.flash.error=flash[:error] 
+      #content=yield
+

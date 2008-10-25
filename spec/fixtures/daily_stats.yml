@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  when: 2008-10-24
+  total_points: 9.99
+  ticket_count: 1
+
+two:
+  when: 2008-10-24
+  total_points: 9.99
+  ticket_count: 1

@@ -1,0 +1,33 @@
+- if @stat_count == 0
+  %p.message
+    No Stats to show
+-else
+  %table
+    %tr
+      %th
+        Date 
+      %th
+        Ticket Count 
+      %th
+        Points 
+      %th
+        Running Velocity 
+      %th
+        Running Points 
+      %th
+        Running count 
+    - @daily_stats.each do |stat| 
+      %tr
+        %td
+          = stat.when
+        %td.numeric
+          = stat.ticket_count
+        %td.numeric
+          = stat.total_points
+        %td.numeric
+          = stat.velocity[0]
+        %td.numeric
+          = stat.velocity[1]
+        %td.numeric
+          = stat.velocity[2]
+%div=will_paginate @daily_stats
